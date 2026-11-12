@@ -6,9 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
 dependencies = [
-    "typer>=0.15",
+    "typer>=0.28.0",
     "rich>=13.9",
-    "pydantic>=2.9",
+    "pydantic>=2.14.3",
     "jinja2>=3.1",
     "pyyaml>=6.0",
 ]
@@ -19,7 +19,7 @@ dockerizer = "dockerizer.cli.commands:main"
 [dependency-groups]
 dev = [
     "pytest>=8.3",
-    "ruff>=0.8",
+    "ruff>=0.17.4",
     "mypy>=1.13",
     "types-pyyaml>=6.0",
 ]
